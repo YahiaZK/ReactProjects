@@ -1,12 +1,12 @@
 import Header from "./components/Header";
+import UserInput from "./components/UserInput";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      Input 
-      Statistics
-    </div>
+      <UserInput />
+    </>
   );
 }
 
